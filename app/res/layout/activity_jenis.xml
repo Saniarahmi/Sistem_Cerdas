@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/ok2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp" />
+
+        <!-- Anthracnose -->
+        <TextView
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/anthracnose"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="ANTHRACNOSE" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="260dp"
+            android:layout_height="280dp"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:background="@drawable/ant"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:id="@+id/isi_anthracnose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Anthracnose adalah penyakit yang disebabkan oleh jamur Colletotrichum gloeosporioides. Penyakit ini menyebabkan bintik-bintik hitam pada kulit buah mangga dan dapat mengakibatkan pembusukan buah. \nCara Mengatasi:\n1. Pangkas daun dan cabang yang terinfeksi.\n2. Semprotkan fungisida yang mengandung tembaga atau bahan aktif lainnya sesuai rekomendasi." />
+
+        <!-- Cutting Weevil -->
+        <TextView
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/cutting_weevil"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="CUTTING WEEVIL" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="260dp"
+            android:layout_height="280dp"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:background="@drawable/cut"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:id="@+id/isi_cutting_weevil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Cutting Weevil adalah hama yang menyerang buah mangga dengan cara melubangi kulit dan merusak jaringan dalam buah. Kerusakan ini menyebabkan kualitas buah menurun. \nCara Mengatasi:\n1. Semprotkan insektisida nabati secara rutin.\n2. Lakukan pemantauan rutin pada tanaman mangga untuk mendeteksi hama lebih awal." />
+
+        <!-- Powdery Mildew -->
+        <TextView
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/powdery_mildew"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="POWDERY MILDEW" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="260dp"
+            android:layout_height="280dp"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:background="@drawable/pwd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:id="@+id/isi_powdery_mildew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Powdery Mildew adalah penyakit yang disebabkan oleh jamur Oidium mangiferae. Gejalanya adalah lapisan putih seperti tepung pada daun, bunga, atau buah. Penyakit ini dapat menghambat pertumbuhan buah mangga. \nCara Mengatasi:\n1. Semprotkan fungisida berbahan aktif sulfur.\n2. Jaga kebersihan area kebun dengan membuang daun yang terinfeksi." />
+    </LinearLayout>
+</ScrollView>

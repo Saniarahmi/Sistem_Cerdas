@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgmg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/okk3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>/>
+
+
+
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/isi"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi ini dapat digunakan oleh masyarakat untuk membantu mendeteksi penyakit mangga sebagai upaya dalam meningkatkan hasil panen. "
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="25dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="25dp"
+            android:id="@+id/idtent"
+            android:layout_below="@+id/isi"
+            android:text="Cara Menggunakan Aplikasi Ini :"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="25dp"
+            android:id="@+id/oko"
+            android:layout_below="@+id/idtent"
+            android:text="1. Buka aplikasi deteksi penyakit mangga"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="25dp"
+            android:id="@+id/okok"
+            android:layout_below="@+id/oko"
+            android:text="2. Memilih menu deteksi"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="25dp"
+            android:id="@+id/okokk"
+            android:layout_below="@+id/okok"
+            android:text="3. Pilih ambil gambar atau dari gallery"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="25dp"
+            android:id="@+id/okokkk"
+            android:layout_below="@+id/okokk"
+            android:text="4. Jika pilih ambil gambar maka siapkan  objeknya yatu mangga, namun jika pilih dari gallery maka pilih gambar yang terdapat pada gallery, lalu akan muncul hasil deteksi"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+        <Button
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/kami"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:text="Tentang Kami"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#0EBE7F"
+            app:cornerRadius = "25dp"/>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

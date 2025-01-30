@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmg"
+    tools:context=".deteksi">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/ok1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="400sp"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:id="@+id/classified"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Classified as:"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:textColor="#c30000"
+                android:layout_gravity="center"
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_below="@+id/classified"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:id="@+id/confidencesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Confidences:"
+                android:layout_below="@+id/result"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:textSize="22sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/confidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:layout_below="@+id/confidencesText"
+                android:layout_centerHorizontal="true"/>
+
+
+            <TextView
+                android:id="@+id/solusi"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_below="@+id/confidencesText"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="25dp"
+                android:layout_centerHorizontal="true"/>
+
+
+            <Button
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Ambil Gambar"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:textAllCaps="false"
+                android:backgroundTint="#0EBE7F"
+                app:cornerRadius = "25dp"/>
+
+            <Button
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:text="Galeri"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:textAllCaps="false"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="#0EBE7F"
+                app:cornerRadius = "25dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
