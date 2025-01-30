@@ -5,7 +5,7 @@
 ### Fitria Rahma Dini (202155202111)
 ### Nur Atika Aulia (202155202064)
 ### Permata Situmorang (202155202089)
-### Elsa Bura Palalangan (-)
+### Elsa Bura Palalangan (202155202101)
 
 ## Tampilan Aplikasi 🌱
 <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
